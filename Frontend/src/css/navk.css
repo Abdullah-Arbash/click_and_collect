@@ -1,0 +1,49 @@
+.navk img{
+    width: 15rem;
+   }
+   .anzeigen{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .navk .nav-name{
+       margin: auto;
+   }
+   .navk .nav-name>p{
+       margin: 0;
+       text-align: center;
+   }
+   .navk .nav-name>p:first-child{
+       font-weight: bold;
+       font-size: 20px;
+   }
+   .navk .drop-down{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .navk #basic-nav-dropdown{
+       padding: 0;
+   }
+   
+   @media screen and (max-width: 991.9px) {
+       .anzeigen{
+           flex-direction: column;
+       }
+     }
+
+     .nav-icon-kunde{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     } 
+
+     .nav-icon2-kunde{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }

@@ -1,0 +1,15 @@
+.extentionNav{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-items: center;
+   flex-wrap:wrap; 
+   margin-top: 2rem;
+}
+.extentionNav Button{
+    margin-left: .5rem;
+    box-shadow: 6px 5px 5px grey;
+    margin-top: .5rem;
+    border: none;
+    font-weight: 700;
+}

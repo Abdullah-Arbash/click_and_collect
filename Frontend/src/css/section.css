@@ -1,0 +1,13 @@
+.section-o{
+    max-width: 1400px;
+    margin: 4rem auto 2rem auto;
+    background-color: white;
+    padding: 40px;
+    border: solid gray 5px;
+    border-radius: 2px;
+}
+.section-o h4:first-child{
+    font-size: 18px;
+    font-weight: 700;
+    color: blue;
+}

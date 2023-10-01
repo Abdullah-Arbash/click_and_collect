@@ -1,0 +1,100 @@
+.buttoms{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.data-wert{
+    color: gray;
+    font-size: 16px;
+}
+
+.mitarbeiter .u-u{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.scrollable-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.admin .slider-container {
+  width: 100%;
+  position: relative;
+}
+
+.admin .slider-container {
+  width: 100%;
+  position: relative;
+}
+
+.admin .catalogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  animation: slide-in 1s ease-in;
+  overflow-x: hidden;
+}
+
+.admin .catalog-item {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.admin .catalog-item:hover {
+  transform: scale(1.1);
+}
+
+.admin .controls-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.admin .control-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.admin .control-btn:hover {
+  background-color: #0069d9;
+  cursor: pointer;
+}
+
+.admin .control-btn[disabled] {
+  background-color: #6c757d;
+  pointer-events: none;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-animation {
+  transform: translateX(-200px);
+}
+

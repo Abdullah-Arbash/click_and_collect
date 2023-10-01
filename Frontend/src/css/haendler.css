@@ -1,0 +1,111 @@
+.haendler .profil{
+    display: flex;
+    justify-content:space-evenly;
+}
+@media screen and (max-width: 770px) {
+    .haendler .profil {
+      flex-direction: column;
+      align-items: center;
+    }
+    .rechts{
+        margin-top: 30px;
+    }
+  }
+
+.haendler .profil .data{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.haendler .profil .data-wert{
+    color: gray;
+    font-size: 16px;
+}
+.haendler .profil .adresse-d{
+    color: gray;
+}
+.flex.pp{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mitarbeiter table{
+    width: 100%;
+}
+.mitarbeiter table td{
+    height: 40px;
+    padding: 10px;
+}
+.listkataloge{
+    list-style: none;    
+    padding: 10px;
+}
+.listkataloge > li{
+    cursor: pointer;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    background-color: #999;
+    padding: 5px;
+    transition: .3s;
+    border-radius: 5px;
+    color: white;
+}
+.listkataloge > li:hover{
+    background-color: #333
+    ;
+}
+.Arbeitszeiten .scrollable-menu {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  .haendler .neuesKategorie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .haendler .neuesKategorie input,
+  button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .haendler .neuesKategorie button {
+    background-color: #007bff;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Abholschein */
+.mitarbeiter .impressum{
+    margin-top: -65px;
+    margin-left: 807px;
+    width: 400px;
+    height: 670px;
+}
+
+.mitarbeiter .bezahlinfos{
+    margin-top: -270px;
+    margin-left: 540px;
+}
+
+.haendler .impressum{
+    margin-top: -65px;
+    margin-left: 807px;
+    width: 400px;
+    height: 550px;
+}
+
+.haendler .bezahlinfos{
+    margin-top: -270px;
+    margin-left: 540px;
+}
+
